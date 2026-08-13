@@ -2,7 +2,7 @@
 
 🎓 B.Tech CS Graduate &nbsp;|&nbsp; 📊 Data Analyst &nbsp;|&nbsp; 📍 Pune, India
 
-I love turning messy data into clean, actionable insights. My toolkit includes SQL, Python, Power BI, and Tableau — and I'm always curious about the story behind the numbers.
+Let's turn messy data into clean, actionable insights. My toolkit includes SQL, Python, Power BI, and Tableau — and I'm always curious about the story behind the numbers.
 
 ---
 
