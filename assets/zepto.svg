@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="240" viewBox="0 0 580 240" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="580" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#141a2e"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="580" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-580 0;580 0" dur="3.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+    <clipPath id="frame"><rect width="580" height="240" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
+    <rect width="580" height="240" fill="url(#bg)"/>
+    <circle cx="520" cy="40" r="90" fill="#7c3aed" opacity="0.28" filter="url(#blur)">
+      <animate attributeName="r" values="80;110;80" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <rect width="580" height="3" fill="url(#acc)"/>
+    <g transform="translate(478 26)"><g transform="translate(8 4)"><ellipse cx="28" cy="10" rx="28" ry="9" fill="#a855f7" fill-opacity="0.3" stroke="#c084fc"/><path d="M0 10v40c0 5 12.5 9 28 9s28-4 28-9V10" stroke="#c084fc" fill="#a855f7" fill-opacity="0.12"/><path d="M0 30c0 5 12.5 9 28 9s28-4 28-9" stroke="#c084fc"/><circle cx="28" cy="30" r="3" fill="#ffffff"><animate attributeName="cy" values="10;55;10" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="2.6s" repeatCount="indefinite"/></circle></g></g>
+    <text x="28" y="48" font-size="12" font-weight="700" letter-spacing="2" fill="#c084fc">QUICK-COMMERCE · SQL</text>
+    <text x="28" y="86" font-size="27" font-weight="800" fill="#f1f5f9">Zepto SQL Data Analysis</text>
+    <text x="28" y="122" font-size="15" fill="#94a3b8">15+ advanced SQL queries on product data exploring</text>
+    <text x="28" y="144" font-size="15" fill="#94a3b8">pricing, discounts and stock availability.</text>
+    <g transform="translate(0 180)" font-size="12" font-weight="600" fill="#e2e8f0"><rect x="28" y="0" width="50" height="26" rx="13" fill="#c084fc" fill-opacity="0.14" stroke="#c084fc" stroke-opacity="0.5"/><text x="53" y="17.5" text-anchor="middle">SQL</text><rect x="86" y="0" width="106" height="26" rx="13" fill="#c084fc" fill-opacity="0.14" stroke="#c084fc" stroke-opacity="0.5"/><text x="139" y="17.5" text-anchor="middle">PostgreSQL</text></g>
+  </g>
+  <rect x="0.5" y="0.5" width="579" height="239" rx="20" stroke="#ffffff" stroke-opacity="0.09"/>
+</svg>

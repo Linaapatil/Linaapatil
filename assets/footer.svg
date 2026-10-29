@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" fill="none">
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#db2777"/><stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#w2)" opacity="0.5">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite" values="
+      M0 90 C 200 50, 400 130, 600 90 S 1000 50, 1200 90 V180 H0 Z;
+      M0 100 C 200 140, 400 60, 600 100 S 1000 140, 1200 100 V180 H0 Z;
+      M0 90 C 200 50, 400 130, 600 90 S 1000 50, 1200 90 V180 H0 Z"/>
+  </path>
+  <path fill="url(#w1)" opacity="0.85">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="
+      M0 120 C 250 150, 450 90, 700 120 S 1050 150, 1200 115 V180 H0 Z;
+      M0 115 C 250 90, 450 150, 700 115 S 1050 90, 1200 125 V180 H0 Z;
+      M0 120 C 250 150, 450 90, 700 120 S 1050 150, 1200 115 V180 H0 Z"/>
+  </path>
+  <text x="600" y="160" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="600" fill="#ffffff" letter-spacing="3">THANKS FOR STOPPING BY</text>
+</svg>
